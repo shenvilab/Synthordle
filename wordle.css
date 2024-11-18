@@ -295,12 +295,18 @@ button#closeButton {
   overflow-y: auto; /* Allow scrolling if content is too tall */
 }
 
-.aboutModal p, ol, ul {
+.aboutModal p, ol, ul, li {
   margin: 0 auto; /* Remove default margins and center content */
   padding: 0; /* Reset padding */
   font-size: 1.25vw; 
   line-height: 2vw; 
   text-align: center;
+  box-sizing: border-box; /* Ensure padding is included in width */
+  .aboutModal li {
+}
+
+.aboutModal {
+  box-sizing: border-box; /* Ensure padding is included in width */
 }
 
 
