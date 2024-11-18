@@ -296,6 +296,8 @@ button#closeButton {
 }
 
 .aboutModal p, ol, ul {
+  margin: 0 auto; /* Remove default margins and center content */
+  padding: 0; /* Reset padding */
   font-size: 1.25vw; 
   line-height: 2vw; 
   text-align: center;
@@ -305,6 +307,8 @@ button#closeButton {
 .aboutModal h2 {
   font-size: 2.25vw;
   line-height: 2vw; 
+  margin: 0 auto; /* Remove default margins and center content */
+  padding: 0; /* Reset padding */
 }
 
 
