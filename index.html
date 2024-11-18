@@ -1,0 +1,132 @@
+<html>
+<head>
+  <title>Synthordle</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="wordle.css">
+</head>
+
+<body>
+  <br>
+  <h1 id="title">Synthordle</h1>
+  <br>
+  <hr>
+  <br>
+  <!-- Overlay message -->
+<div id="rotate-message" class="rotate-message">
+  <p>Please rotate your device horizontally for the best experience.</p>
+</div>
+  <!-- Modal for settings -->
+  <div id="settingsModal" class="modal">
+    <div class="modal-content">
+        <h2>Game Settings</h2>
+        <label for="reactionID">Reaction ID:</label>
+        <input type="range" min="0" value="0" class="reaction-id-input" id="reactionID" style="width: 80px;">
+        <span id="IDValue">0</span>
+        <button id="Daily" class="daily" onclick="randomizeReactionId()">Randomize</button>
+        <br><br>
+        <label for="numGuesses">Number Of Guesses:</label>
+        <input type="range" id="numGuesses" min="1" max="5" value="4">
+        <span id="guessValue">4</span>
+        <br><br>
+        <label for="direction">Direction:</label>
+        <select id="direction">
+          <option value="retro">Retro</option>
+          <option value="forward">Forward</option>
+        </select>
+        <br><br>
+        <label for="difficulty">Difficulty:</label>
+        <select id="difficulty">
+          <option value="hard">Hard</option>
+          <option value="easy">Easy</option>
+        </select>
+        <br><br>
+        <div class="modal-buttons"></div>
+        <button id="saveSettings">Save</button>
+        <button id="cancelButton">Cancel</button>
+    </div>
+  </div>
+
+  <div id="aboutModal" class="aboutmodal">
+    <div class="modal-content">
+    </p>
+    <h2>Synthordle</h2>
+    <p>
+      Identify a synthetic pathway for a target product by selecting the correct sequence of reaction conditions.
+      <h2>Customize Game Settings </h2>
+        <p>
+          <ul style="list-style-type:none;">
+                <li><strong>Reaction Pathway (ID):</strong> Choose a specific reaction.</li>
+                <li><strong>Number of Guesses:</strong> Set the number of attempts.</li>
+                <li><strong>Direction:</strong> Select "Forward" or "Retro-" Synthetic Analysis.</li>
+            </ul>
+            
+        </p>
+        
+        <h2>Gameplay Instructions</h2>
+      <ul style="list-style-type:none;">
+            <li><strong>Select Reagents:</strong> Use the displayed keyboard to choose reaction conditions.</li>
+            <li><strong>Submit a Guess:</strong> Click "Enter" after filling all four boxes in a row.</li>
+            <li><strong>Receive Feedback:</strong>
+                <ol style="list-style-type:none;">
+                    <li><span class="correct">Green</span> - Correct reagent and position.</li>
+                    <li><span class="present">Yellow</span> - Correct reagent but wrong position.</li>
+                    <li><span class="absent">Gray</span> - Incorrect reagent.</li>
+                </ol>
+            </li>
+          </ul>
+      <p>
+        Created by: Kevin Zong, Jonah Luo, Ryan Shenvi*
+      </p>
+      <p>
+        Contact: kzong@scripps.edu, jonahluo22@gmail.com, rshenvi@scripps.edu
+      </p>
+      <p>
+        <a href="https://www.shenvilab.org" target="_blank">Shenvi Lab Website</a>
+      </p>
+      <button id="closeButton">Close</button>
+        
+    </div>
+</div>
+
+<!-- Add canvas for fireworks animation -->
+<canvas id="fireworks" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;"></canvas>
+  <!-- Modal for game over-->
+  <div id="gameOverModal" display="flex">
+    <div class="modal-content">
+        <h2 id="gameOverMessage"></h2>
+        <button id="playAgainButton">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="notificationContainer" class="notification-container"></div>
+
+  <!-- Gear Icon for settings button -->
+  <div id="gearIcon" class="gear-icon">
+    <img src="gear.png" alt="Settings">
+  </div>
+
+  <!-- About Icon for HowtoPlay button -->
+  <div id="aboutIcon" class="about-icon">
+    <img src="about.png" alt="Settings">
+  </div>
+
+  <div id="board"></div>
+  <div id="reference"></div>
+  <div id="keyboard"></div>
+  <script src="wordle.js"></script>
+
+</body>
+
+<div class="scrippslogo-container">
+  <img src="Scrippslogo.png" alt="Logo 1 Description" class="scrippslogo" />
+</div>
+
+<div class="shenvilogo-container">
+  <img src="Shenvilogo.png" alt="Logo 2 Description" class="shenvilogo" />
+</div>
+
+
+
+</html>
