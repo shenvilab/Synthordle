@@ -254,7 +254,7 @@ button {
 }
 
 button#closeButton {
-  font-size: 1.5vw; /* Close button font size */
+  font-size: 1vw; /* Close button font size */
   padding: 1vw 2vw; /* Padding scales with viewport */
 }
 
@@ -278,40 +278,40 @@ button#closeButton {
 }
 
 .aboutModal {
-  display: none;  /* Hidden by default */
+  display: flex; /* Use Flexbox for alignment */
+  flex-direction: column; /* Stack child elements vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
   position: fixed;
   z-index: 1;
   left: 50%;
   top: 50%;
-  width: 80vw; /* Width relative to viewport width */
-  max-width: 1000px; /* Optional: limit maximum width */
-  height: auto; /* Allow height to adjust based on content */
-  max-height: 80vh; /* Limit height relative to viewport height */
-  border-radius: 1vw; /* Rounded corners, scales with viewport */
-  padding: 2vw; /* Padding relative to viewport */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  width: 80vw;
+  max-width: 1000px;
+  height: auto;
+  max-height: 80vh;
+  padding: 2vw;
+  border-radius: 1vw;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   background-color: white;
-  transform: translate(-50%, -50%); /* Center the modal */
-  overflow-y: auto; /* Allow scrolling if content is too tall */
+  transform: translate(-50%, -50%);
+  overflow-y: auto; /* Enable scrolling for tall content */
+  text-align: center; /* Align text inside the modal */
 }
 
-.aboutModal p, ol, ul, li {
-  margin: 0 auto; /* Remove default margins and center content */
-  padding: 0.75; /* Reset padding */
-  font-size: 1.25vw; 
-  line-height: 2vw; 
-  text-align: center;
-  box-sizing: border-box; /* Ensure padding is included in width */
-}
-
-
-
-.aboutModal h2 {
-  font-size: 2.25vw;
-  line-height: 2vw; 
-  margin: 0 auto; /* Remove default margins and center content */
+.aboutModal p, 
+.aboutModal ol, 
+.aboutModal ul, 
+.aboutModal li,
+.aboutModal h2,
+{
+  margin: 0 auto; /* Center horizontally */
   padding: 0; /* Reset padding */
+  font-size: 1.25vw; /* Responsive font size */
+  line-height: 1.8vw; /* Improved readability */
+  text-align: center; /* Align text to the center */
 }
+
 
 
 #fireworks {
