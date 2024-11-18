@@ -1,0 +1,256 @@
+{
+  "reactions": [
+    {
+      "ID": "0",
+      "sequence": ["mCPBA", "TMABHOAc3", "LDACBr4", "DavisOxaziridine"],
+      "reference": "<i>Nat. Chem.</i> <b>2015</b>, <i>7</i>, 604"
+    },
+    {
+      "ID": "1",
+      "sequence": ["AnaeriobicMukaiyama", "IsoprenylOAc", "CrO3TBAIO4", "Ms2ODMAPEt3N"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2023</b>, <i>145</i>, 15714"
+    },
+    {
+      "ID": "2",
+      "sequence": ["mesitylene", "DMP", "CH2OKOH", "MsClEt3NDBU"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2023</b>, <i>145</i>, 20634"
+    },
+    {
+      "ID": "3",
+      "sequence": ["PhSHAIBN", "POCl3Pyr", "SnCl4Methacrolein", "NaBH4"],
+      "reference" : "<i>J. Org. Chem. </i><b>2001</b>, <i>66</i>, 8843"
+    },
+    {
+      "ID": "4",
+      "sequence": ["LDACO2", "methylphosphoylide", "COCl2", "iPr2NEt"],
+      "reference" : "<i>Tet. Lett.</i> <b>1985</b>, <i>26</i>, 3535"
+    },
+    {
+      "ID": "5",
+      "sequence": ["MeLi", "HClMeOH", "NH2NH2", "240C"],
+      "reference" : "<i>J. Am. Chem. Soc.</i> <b>1970</b>, <i>92</i>, 5657"
+    },
+    {
+      "ID": "6",
+      "sequence": ["Zn", "mCPBA", "oxalicacid", "NaOH"],
+      "reference" : "<i>J. Org. Chem.</i> <b>1989</b>, <i>54</i>, 681"
+    },
+    {
+      "ID": "7",
+      "sequence": ["OsO4", "TsClPyr", "KOtBu", "methylphosphoylide"],
+      "reference" : "<i>J. Am. Chem. Soc.</i> <b>1966</b>, <i>88</i>, 4113; <i>J. Am. Chem. Soc.</i> <b>1969</b>, <i>91</i>, 6473"
+    },
+    {
+      "ID": "8",
+      "sequence": ["propenyllithium", "PCC", "EtAlCl2", "CH2OMe2AlCl"],
+      "reference" : "<i>J. Org. Chem.</i> <b>1993</b>, <i>58</i>, 1030"
+    },
+    {
+      "ID": "9",
+      "sequence": ["TiCl4CH2Br2", "tBuLiDMF", "NaBH4", "triethylorthoacetate"],
+      "reference" : "<i>J. Am. Chem. Soc.</i> <b>2021</b>, <i>143</i>, 18287"
+    },
+    {
+      "ID": "10",
+      "sequence": ["aminophenylaziridine", "Bu3SnHAIBN", "Swern", "MeMgBrTiCl4"],
+      "reference" : "<i>Bull. Korean Chem. Soc.</i> <b>1999</b>, <i>20</i>, 3"
+    },
+    {
+      "ID": "11",
+      "sequence": ["CuICsOAc", "Pd2dba3alkene", "PhSHNBS", "CuICsOAc"],
+      "reference" : "<i>J. Am. Chem. Soc.</i> <b>2006</b>, <i>128</i>, 7136"
+    },
+    {
+      "ID": "12",
+      "sequence": ["TMPTBSOTf", "mesitylene150pTsOH", "NaBH4tBuOKMeI", "LDAO2SnCl2"],
+      "reference" : "<i>J. Am. Chem. Soc.</i> <b>2023</b>, <i>145</i>, 3903"
+    },
+    {
+      "ID": "13",
+      "sequence": ["SeO2tBuOOH", "DMPRhCl3", "KOtBuO2POMe3", "NaBH4"],
+      "reference" : "<i>J. Am. Chem. Soc.</i> <b>2004</b>, <i>126</i>, 16300"
+    },
+    {
+      "ID": "14",
+      "sequence": ["PBu3DEADButyricacid", "hvAcOH", "KMnO4Octanoic", "OsO4NMOCitricAcid"],
+      "reference": "<i>ACS Cent. Sci.</i> <b>2017</b>, <i>3</i>, 47"
+    },
+    {
+      "ID": "15",
+      "sequence": ["Ac2ODMAP", "CuOAcbutynylpivalate", "KOtBu", "MsClEt3N"],
+      "reference": "<i>Angew. Chem., Int. Ed. </i> <b>2023</b>, <i>62</i>, e202303537"
+    },
+    {
+      "ID": "16",
+      "sequence": ["DMP", "NaClO2NaH2PO4", "4PPYTsClEt3N", "LiAlH4nBu4NF"],
+      "reference": "<i>Angew. Chem. Int. Ed.</i> <b>2022</b>, <i>61</i>, e202200576"
+    },
+    {
+      "ID": "17",
+      "sequence": ["mCPBA", "TFAA", "Na2S4", "NaBH4"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2013</b>, <i>135</i>, 1209"
+    },
+    {
+      "ID": "18",
+      "sequence": ["TIPSClDBU", "panisidinePdOAc2", "PdOAc2CuOAc2AcOH","BBr3"],
+      "reference": "<i> Org. Lett.</i> <b>2024 </b>, <i>26</i>, 5243"
+    },
+    {
+      "ID": "19",
+      "sequence": ["BnOHNaH", "PhLiGlycidylEtherBF3", "TIPSOTf26lutidine", "catTsOH"],
+      "reference": "<i>Org. Lett.</i> <b>2015</b>, <i>17</i>, 5634"
+    },
+    {
+      "ID": "20",
+      "sequence": ["AlMe3", "NaIO4TBAIO4", "PPh3CBr4", "nBuLiCH2O"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2023</b>, <i>145</i>, 18240"
+    },
+    {
+      "ID": "21",
+      "sequence": ["propanediamine", "TBAF", "Bu3SnHAIBN", "PPh32PdCl2"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>1994</b>, <i>116</i>, 9789"
+    },
+    {
+      "ID": "22",
+      "sequence": ["TMSOTf", "PCC", "SmI2", "TMSCN"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>1993</b>, <i>115</i>, 8871"
+    },
+    {
+      "ID": "23",
+      "sequence": ["hvHClO4", "Ac2ODMAP", "EEACE", "BurgessthenHCl"],
+      "reference": "<i>J. Org. Chem.</i> <b>1996</b>, <i>63</i>, 6072"
+    },
+    {
+      "ID": "24",
+      "sequence": ["DBU", "H2PdC", "methylphosphoylide", "SeO2tBuOOHMnO2"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>1997</b>, <i>119</i>, 7897"
+    },
+    {
+      "ID": "25",
+      "sequence": ["BH3cyclohexeneH2O2", "DMP", "BestmannOhira", "nBuLiClCO2Me"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2002</b>, <i>124</i>, 4956"
+    },
+    {
+      "ID": "26",
+      "sequence": ["NaOMe", "H2O2", "TBDPSClEt3NDMAP", "MeMgBr"],
+      "reference": "<i>Science</i> <b>2013</b>, <i>340</i>, 180"
+    },
+    {
+      "ID": "27",
+      "sequence": ["TMSI26lutidine", "Bu3SnHAIBN", "CuCNnBuLiBu3SnHNIS", "tBuLiPMBglycidolBF3"],
+      "reference": "<i>Chem. Eur. J.</i> <b>2023</b>, <i>29</i>, e202300703"
+    },
+    {
+      "ID": "28",
+      "sequence": ["DDQ", "Swern", "allylglycinate", "benzyolisocyanate"],
+      "reference": "<i>Chem. Eur. J.</i> <b>2024</b>, <i>30</i>,  e202304272"
+    },
+    {
+      "ID": "29",
+      "sequence": ["MsClLiCl26lutidine", "Nadiethylmalonate", "KOHEtOH", "Et3Ntoluenereflux"],
+      "reference": "<i>Chem. Eur. J.</i> <b>2023</b>, <i>29</i>, e202300703"
+    },
+    {
+      "ID": "30",
+      "sequence": ["NBS", "RuCl3NaIO4DBU", "OsO4", "EtAlCl2"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2019</b>, <i>141</i>, 20048"
+    },
+    {
+      "ID": "31",
+      "sequence": ["MsClEt3N", "THFH2OTEAHeat", "MnMukaiyamaHydration", "DIBALH"],
+      "reference": "<i>J. Org. Chem.</i> <b>2023</b>, <i>88</i>, 6017"
+    },
+    {
+      "ID": "32",
+      "sequence": ["mAnisoleMgBr", "O3PPh3", "TsOHPhMeHeat", "LiNH3HCl"],
+      "reference": "<i>J. Org. Chem.</i> <b>2022</b>, <i>87</i>, 1398"
+    },
+    {
+      "ID": "33",
+      "sequence": ["TBSClimidazoleDMAP", "vinylgrignardthenPhNMe2AcCl", "LiHMDSTBSClthenMeI", "DIBALH"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2020</b>, <i>142</i>, 17802"
+    },
+    {
+      "ID": "34",
+      "sequence": ["PIFAMeOH", "MeNHNHMeTf2O", "silylketeneacetalTMSCH2MgCl", "HCl"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2024</b>, <i>146</i>, 26351"
+    },
+    {
+      "ID": "35",
+      "sequence": ["mCPBAAc2OEt3NDMAP", "DBU", "hexadieneMgBr", "PhMeBHT140"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2022</b>, <i>144</i>, 18823"
+    },
+    {
+      "ID": "36",
+      "sequence": ["microwaveDCB185", "TBSimidazolethenDDQ", "CS2NaHMDSMeI", "Bu3SnHAIBN"],
+      "reference": "<i>Angew. Chem. Int. Ed.</i> <b>2007</b>, <i>46</i>, 7929"
+    },
+    {
+      "ID": "37",
+      "sequence": ["PdOAc2NaOtBuO2DMF", "H2PdC", "AlCl3H2O", "MukaiyamaReagent"],
+      "reference": "<i>Angew. Chem. Int. Ed.</i> <b>2015</b>, <i>54</i>, 5451"
+    },
+    {
+      "ID": "38",
+      "sequence": ["allylTMSBF3OEt2", "MsClEt3N", "BDSB", "DIBALH"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2012</b>, <i>134</i>, 17714"
+    },
+    {
+      "ID": "39",
+      "sequence": ["Bu3SnHAIBN", "O3Me2SNaBH4", "Lawessons", "RaneyNi"],
+      "reference": "<i>J. Am. Chem. Soc.</i> <b>2013</b>, <i>135</i>, 12964"
+    }
+
+
+
+  ],
+  "reagents": ["LDACBr4", "DavisOxaziridine", "TMABHOAc3", "mCPBA",
+               "AnaeriobicMukaiyama", "IsoprenylOAc", "CrO3TBAIO4", "Ms2ODMAPEt3N",
+               "mesitylene", "DMP", "CH2OKOH", "MsClEt3NDBU",
+               "PhSHAIBN", "POCl3Pyr", "SnCl4Methacrolein", "NaBH4",
+               "LDACO2", "methylphosphoylide", "COCl2", "iPr2NEt",
+               "MeLi", "HClMeOH", "NH2NH2", "240C",
+               "Zn", "mCPBA", "oxalicacid", "NaOH",
+               "OsO4", "TsClPyr", "KOtBu", "methylphosphoylide",
+               "propenyllithium", "EtAlCl2", "CH2OMe2AlCl",
+               "TiCl4CH2Br2", "tBuLiDMF", "NaBH4", "triethylorthoacetate",
+               "aminophenylaziridine", "Bu3SnHAIBN", "Swern", "MeMgBrTiCl4",
+               "CuICsOAc", "Pd2dba3alkene", "PhSHNBS",
+               "TMPTBSOTf", "mesitylene150pTsOH", "NaBH4tBuOKMeI", "LDAO2SnCl2",
+               "SeO2tBuOOH", "DMPRhCl3", "KOtBuO2POMe3",
+               "PBu3DEADButyricacid", "hvAcOH", "KMnO4Octanoic", "OsO4NMOCitricAcid",
+               "Ac2ODMAP", "CuOAcbutynylpivalate", "KOtBu", "MsClEt3N",
+               "DMP", "NaClO2NaH2PO4", "4PPYTsClEt3N", "LiAlH4nBu4NF",
+               "mCPBA", "TFAA", "Na2S4", "NaBH4",
+               "BBr3", "PdOAc2CuOAc2AcOH", "panisidinePdOAc2", "TIPSClDBU",
+               "BnOHNaH", "PhLiGlycidylEtherBF3", "TIPSOTf26lutidine", "catTsOH",
+               "AlMe3", "NaIO4TBAIO4", "PPh3CBr4", "nBuLiCH2O",
+               "propanediamine", "TBAF", "Bu3SnHAIBN", "PPh32PdCl2",
+               "TMSOTf", "PCC", "SmI2", "TMSCN",
+               "hvHClO4", "Ac2ODMAP", "EEACE", "BurgessthenHCl",
+               "DBU", "H2PdC", "methylphosphoylide", "SeO2tBuOOHMnO2",
+               "BH3cyclohexeneH2O2", "DMP", "BestmannOhira", "nBuLiClCO2Me",
+               "NaOMe", "H2O2", "TBDPSClEt3NDMAP", "MeMgBr",
+               "TMSI26lutidine", "Bu3SnHAIBN", "CuCNnBuLiBu3SnHNIS", "tBuLiPMBglycidolBF3",
+               "DDQ", "Swern", "allylglycinate", "benzyolisocyanate",
+               "MsClLiCl26lutidine", "Nadiethylmalonate", "KOHEtOH", "Et3Ntoluenereflux",
+               "mAnisoleMgBr", "O3PPh3", "TsOHPhMeHeat", "LiNH3HCl",
+               "TBSClimidazoleDMAP", "vinylgrignardthenPhNMe2AcCl", "LiHMDSTBSClthenMeI", "DIBALH",
+               "PIFAMeOH", "vinylgrignardthenPhNMe2AcCl", "silylketeneacetalTMSCH2MgCl", "HCl",
+               "mCPBAAc2OEt3NDMAP", "DBU", "hexadieneMgBr", "PhMeBHT140",
+               "microwaveDCB185", "TBSimidazolethenDDQ", "CS2NaHMDSMeI", "Bu3SnHAIBN",
+               "PdOAc2NaOtBuO2DMF", "H2PdC", "AlCl3H2O", "MukaiyamaReagent",
+               "allylTMSBF3OEt2", "MsClEt3N", "BDSB", "DIBALH",
+               "Bu3SnHAIBN", "O3Me2SNaBH4", "Lawessons", "RaneyNi"
+
+
+
+
+
+
+
+
+
+
+              ]
+}
