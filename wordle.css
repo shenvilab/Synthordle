@@ -302,8 +302,7 @@ button#closeButton {
 .aboutModal p, 
 .aboutModal ol, 
 .aboutModal ul, 
-.aboutModal li,
-.aboutModal h2,
+.aboutModal li
 {
   margin: 0 auto; /* Center horizontally */
   padding: 0; /* Reset padding */
@@ -311,6 +310,16 @@ button#closeButton {
   line-height: 1.8vw; /* Improved readability */
   text-align: center; /* Align text to the center */
 }
+
+
+.aboutModal h2{
+    margin: 0 auto; /* Center horizontally */
+    padding: 0; /* Reset padding */
+    font-size: 2vw; /* Responsive font size */
+    line-height: 4vw; /* Improved readability */
+    text-align: center; /* Align text to the center */
+}
+
 
 
 
