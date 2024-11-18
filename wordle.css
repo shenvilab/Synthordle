@@ -278,7 +278,7 @@ button#closeButton {
 }
 
 .aboutModal {
-  display: flex; /* Use Flexbox for alignment */
+  display: hidden;
   flex-direction: column; /* Stack child elements vertically */
   justify-content: center; /* Center content vertically */
   align-items: center; /* Center content horizontally */
