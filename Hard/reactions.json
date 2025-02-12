@@ -199,6 +199,17 @@
       "ID": "39",
       "sequence": ["Bu3SnHAIBN", "O3Me2SNaBH4", "Lawessons", "RaneyNi"],
       "reference": "<i>J. Am. Chem. Soc.</i> <b>2013</b>, <i>135</i>, 12964"
+    },
+    {
+      "ID": "40",
+      "sequence": ["PMBBr-NaHMDS", "nBuLi", "DMP", "BestmannOhira"],
+      "reference": "<i>J. Am. Chem. Soc.</i>, <b>2024</b>, <i>146</i>, 17757"
+    },
+
+    {
+      "ID": "41",
+      "sequence": ["MnOAc-CuBF4", "PhSeNa", "COCl2-LiAlHOtBu", "NaIO4-heat"],
+      "reference": "<i>Chem. Eur. J.</i>, <b>2018</b>, <i>6747</i>, 6747"
     }
 
 
