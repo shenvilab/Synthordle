@@ -160,7 +160,7 @@ function hideAboutModal() {
 //////////////////////////////////INITIALIZE////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////
 
-function initializeBoard(answer, reagents, reference) {
+function initializeBoard(answer, reagents, reference, credit) {
   row = 0; //Reset row to 0
   col = 0; //Reset column to 0
   takingInput = true; // Reset takingInput to true
@@ -173,8 +173,10 @@ function initializeBoard(answer, reagents, reference) {
   const keyboard = document.getElementById("keyboard");
   const fragment = document.createDocumentFragment();
   const ref = document.getElementById("reference");
+  const cred = document.getElementById("credit");
   
   ref.innerHTML = reference;
+  cred.innerHTML = "Submitted by: " + credit;
 
 
   //First column
@@ -230,6 +232,7 @@ async function fetchParametersAndInitialize() {
     const allReagents = data.reagents;
     const answer = data.reactions[reactionID].sequence;
     const reference = data.reactions[reactionID].reference;
+    const credit = data.reactions[reactionID].credit;
     maxReactionID = data.reactions.length - 1; // Calculate max based on the JSON data
     
     const reactionSlider = document.getElementById("reactionID");
@@ -241,7 +244,7 @@ async function fetchParametersAndInitialize() {
     const reagents = generateReagents(allReagents, answer, numChoices);
     intermediatesRevealed = setIntermediatesRevealed(width);
     
-    initializeBoard(answer, reagents, reference);  // Initialize board after fetching data
+    initializeBoard(answer, reagents, reference, credit);  // Initialize board after fetching data
   } catch (error) {
     console.error('Error fetching data:', error);  // Handle errors gracefully
   }
