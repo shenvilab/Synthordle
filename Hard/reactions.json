@@ -262,7 +262,7 @@
       "ID": "43",
       "sequence": ["iPrMgBrCuITMSClLiClTBAF", "PCC", "TsNHNH2HBcatNaOAc", "TsOHDCM"],
       "reference": "<i>J. Am. Chem. Soc.</i> <b>2024</b>, <i>146</i>, (36), 25078–25087.",
-      "credit": "K. de La Fuente"
+      "credit": "K. de la Fuente"
     },
     {
       "ID": "44",
@@ -308,8 +308,7 @@
     },
     {
       "ID": "51",
-      "sequence": ["Rh2TFA4", "NaHPrenylbromide", "TBAF", "DMP"
-],
+      "sequence": ["Rh2TFA4", "NaHPrenylbromide", "TBAF", "DMP"],
       "reference": "<i>J. Am. Chem. Soc.</i> <b>2024</b>, <i>146</i>, 18886–18891",
       "credit": "P. Loch"
     }
