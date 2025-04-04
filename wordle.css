@@ -277,17 +277,18 @@ button#closeButton {
   cursor: pointer; /* Pointer cursor on hover */
 }
 
+/* About Modal Styling */
 .aboutModal {
   display: none;
   flex-direction: column; /* Stack child elements vertically */
-  justify-content: center; /* Center content vertically */
+  justify-content: flex-start; /* Align content to the top */
   align-items: center; /* Center content horizontally */
   position: fixed;
   z-index: 1;
   left: 50%;
   top: 50%;
   width: 80vw;
-  max-width: 1000px;
+  max-width: 800px;
   height: auto;
   max-height: 80vh;
   padding: 2vw;
@@ -296,32 +297,90 @@ button#closeButton {
   background-color: white;
   transform: translate(-50%, -50%);
   overflow-y: auto; /* Enable scrolling for tall content */
-  text-align: center; /* Align text inside the modal */
 }
 
-.aboutModal p, 
-.aboutModal ol, 
-.aboutModal ul, 
-.aboutModal li
-{
-  margin: 0 auto; /* Center horizontally */
-  padding: 0; /* Reset padding */
-  font-size: 1.25vw; /* Responsive font size */
+.aboutModal .modal-content {
+  width: 90%; /* Limit the width of the content */
+  max-width: 700px; /* Ensure it doesn't stretch too far */
+  text-align: left; /* Align text to the left */
+}
+
+.aboutModal h2 {
+  font-size: 1.8vw; /* Responsive font size */
+  margin-bottom: 1vw; /* Add spacing below headings */
+  text-align: center; /* Center align headings */
+  font-weight: bold;
+}
+
+.aboutModal p,
+.aboutModal ul,
+.aboutModal ol {
+  font-size: 1.2vw; /* Responsive font size */
   line-height: 1.8vw; /* Improved readability */
-  text-align: center; /* Align text to the center */
+  margin: 0 auto 1vw auto; /* Center align and add spacing below */
+  max-width: 85%; /* Limit the width of the text */
+  text-align: left; /* Align text to the left */
+  
 }
 
-
-.aboutModal h2{
-    margin: 0 auto; /* Center horizontally */
-    padding: 0; /* Reset padding */
-    font-size: 2vw; /* Responsive font size */
-    line-height: 4vw; /* Improved readability */
-    text-align: center; /* Align text to the center */
+.aboutModal h2 {
+  font-size: 1.8vw; /* Responsive font size */
+  margin-bottom: 1vw; /* Add spacing below headings */
+  text-align: center; /* Center align headings */
+  font-weight: bold;
 }
 
+.aboutModal p {
+  padding-left: 0;
+  font-size: 1.2vw; /* Responsive font size */
+  line-height: 1.8vw; /* Improved readability */
+  margin: 0 auto 1vw auto; /* Center align and add spacing below paragraphs */
+  max-width: 60%; /* Limit the width to 90% of the modal content */
+  text-align: left; /* Align text to the left */
+}
 
+.aboutModal ul, .aboutModal ol {
+  margin: 0 0 1vw 4vw; /* Add spacing and indentation */
+  padding-left: 45;
+  font-size: 1.2vw; /* Match paragraph font size */
+  line-height: 1.8vw; /* Improved readability */
+  max-width: 75%;
+}
 
+.aboutModal li {
+  margin-bottom: 0.5vw; /* Add spacing between list items */
+}
+
+.aboutModal hr {
+  border: none;
+  border-top: 1px solid #ccc; /* Light gray horizontal line */
+  margin: 1.5vw auto; /* Center the horizontal line */
+  width: 90%; /* Match the width of the content */
+}
+
+.aboutModal a {
+  color: #007BFF; /* Link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.aboutModal a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.aboutModal button {
+  margin-top: 2vw; /* Add spacing above the button */
+  padding: 1vw 2vw; /* Add padding for better clickability */
+  font-size: 1.2vw; /* Match font size */
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 0.5vw; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.aboutModal button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
 
 #fireworks {
   pointer-events: none; /* Allow clicks to pass through to underlying elements */
